@@ -385,7 +385,7 @@ img{
     font-size: var(--h3-font-size);
     display: flex;
     justify-content: space-between;
-    margin-bottom: var(--mb-0-5);
+    margin-bottom: var(--mb-0-25);
 }
 
 .skills__name{
@@ -422,6 +422,9 @@ img{
 }
 .skills__php{
     width: 50%;
+}
+.skills__sql{
+    width: 70%;
 }
 .skills__firebase{
     width: 50%;
