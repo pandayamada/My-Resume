@@ -219,7 +219,7 @@ img{
 .nav__link:hover{
     color: var(--first-color);
 }
-.nav_icon{
+.nav__icon{
     font-size: 1.2rem;
 }
 .nav__close{
@@ -654,6 +654,44 @@ img{
 
 
 /*==================== CONTACT ME ====================*/
+
+.contact,
+.contact__container{
+    text-align: center;
+}
+.contact__container{
+    border: solid ;
+    border-radius: 1rem;
+    border-color: var(--first-color-lighter);
+    overflow: hidden;
+}
+.contact__line{
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: var(--first-color);
+
+}
+.contact__list{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--first-color);
+}
+/* .contact__data{
+} */
+.contact__icon{
+color: #fff;
+font-size: 1.5rem;
+}
+.topic__name{
+color: #fff;
+font-size: var(--normal-font-size);
+}
+.topic__sub{
+color: var(--first-color-lighter);
+font-size: var(--small-font-size);
+
+}
 
 
 /*==================== FOOTER ====================*/
